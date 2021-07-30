@@ -92,13 +92,15 @@ fi
 echo "$fg[green]Changing git config --global settings...$reset_color"
 
 git config --global user.email $email_address
-git config --global user.name $user_name
+git config --global user.name $username
 
 # TODO: prompt for this
 git config --global init.defaultBranch main
 
+git config --global pager.blame false
 git config --global pager.branch false
 git config --global pager.config false
+git config --global pager.diff false
 git config --global pager.log false
 git config --global pager.stash false
 
