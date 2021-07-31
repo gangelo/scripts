@@ -100,7 +100,11 @@ git config --global init.defaultBranch main
 git config --global pager.blame false
 git config --global pager.branch false
 git config --global pager.config false
+<<<<<<< Updated upstream
 git config --global pager.diff false
+=======
+git config --global pager.grep false
+>>>>>>> Stashed changes
 git config --global pager.log false
 git config --global pager.stash false
 
